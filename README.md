@@ -1,21 +1,27 @@
-<<<<<<< HEAD
-﻿# Attack Surface Mapper
+# Attack Surface Mapper
 
-A lightweight Python tool for mapping basic web attack surfaces.
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+A lightweight Python tool for **mapping basic web attack surfaces**.  
+Designed for security enthusiasts, pentesters, and developers to **discover subdomains, HTTP headers, open ports, and TLS info** in a safe and modular way.
+
+---
 
 ## Features
-- Subdomain discovery
-- HTTP header analysis
-- Modular design
 
-## Usage
-\\\
-python main.py
-\\\
+- Discover common subdomains
+- Scan HTTP headers
+- Optional port scanning (common TCP ports)
+- TLS/SSL certificate information
+- Modular, easy-to-extend architecture
+- JSON report generation for automated workflows
 
-## Disclaimer
-Use only on systems you own or have permission to test.
-=======
-# attack-surface-mapper
-External attack surface discovery tool for authorized security testing
->>>>>>> c41454f4c488def582c961e05502575bd26d0016
+---
+
+## Requirements
+
+- Python 3.10 or higher  
+- Dependencies:
+  ```bash
+  pip install -r requirements.txt
